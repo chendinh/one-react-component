@@ -1,0 +1,39 @@
+{
+  "name": "herond-ui",
+  "version": "1.0.0",
+  "description": "The UI component Library for both reactjs and nextjs",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herondlabs/herond-ui.git"
+  },
+  "publishConfig": {
+    "registry": "git+https://github.com/herondlabs/herond-ui.git/chendinh"
+  },
+  "author": "Chen Dinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herondlabs/herond-ui/issues"
+  },
+  "homepage": "https://github.com/herondlabs/herond-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.14",
+    "react": "^18.2.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "typescript": "^5.1.6",
+    "tslib": "^2.6.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
