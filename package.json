@@ -1,6 +1,6 @@
 {
   "name": "@chendinh/one-react-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The UI component Library for both reactjs and nextjs",
   "scripts": {
     "rollup": "rollup -c",
