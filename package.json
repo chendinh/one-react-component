@@ -1,6 +1,6 @@
 {
   "name": "@chendinh/one-react-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The UI component Library for both reactjs and nextjs",
   "scripts": {
     "rollup": "rollup -c"
@@ -21,14 +21,18 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
     "@types/react": "^18.2.14",
-    "react": "^18.2.0",
     "rollup": "^3.26.2",
     "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.0",
     "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
