@@ -1,24 +1,23 @@
 {
-  "name": "herond-ui",
+  "name": "@chendinh/one-react-component",
   "version": "1.0.0",
   "description": "The UI component Library for both reactjs and nextjs",
   "scripts": {
-    "rollup": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herondlabs/herond-ui.git"
+    "url": "git+https://github.com/chendinh/one-react-component.git"
   },
   "publishConfig": {
-    "registry": "git+https://github.com/herondlabs/herond-ui.git/chendinh"
+    "registry": "https://npm.pkg.github.com/chendinh"
   },
   "author": "Chen Dinh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/herondlabs/herond-ui/issues"
+    "url": "https://github.com/chendinh/one-react-component/issues"
   },
-  "homepage": "https://github.com/herondlabs/herond-ui#readme",
+  "homepage": "https://github.com/chendinh/one-react-component#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
