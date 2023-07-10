@@ -1,5 +1,5 @@
 {
-  "name": "@herond-ui/herond-ui",
+  "name": "@herondlabs/herond-ui",
   "version": "1.0.3",
   "description": "The UI component Library for both reactjs and nextjs",
   "scripts": {
