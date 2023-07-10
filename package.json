@@ -1,5 +1,5 @@
 {
-  "name": "@herondlabs/herond-ui",
+  "name": "@chendinh/one-react-component",
   "version": "1.0.3",
   "description": "The UI component Library for both reactjs and nextjs",
   "scripts": {
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herondlabs/herond-ui.git"
+    "url": "git+https://github.com/chendinh/one-react-component.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/herondlabs"
+    "registry": "https://npm.pkg.github.com/chendinh"
   },
   "author": "Chen Dinh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/herondlabs/herond-ui/issues"
+    "url": "https://github.com/chendinh/one-react-component/issues"
   },
-  "homepage": "https://github.com/herondlabs/herond-ui#readme",
+  "homepage": "https://github.com/chendinh/one-react-component#readme",
   "devDependencies": {
     "@babel/core": "^7.22.8",
     "@babel/preset-env": "^7.22.7",
